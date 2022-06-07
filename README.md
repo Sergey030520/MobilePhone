@@ -1,5 +1,18 @@
 # MobilePhone
 
-The application displays one window in which there is an input field (for entering a phone number) and a colored inscription. The label can be in two states: green text "Ok" and red "Not Ok".
+## Описание
 
-If you enter a mobile phone number in the format +11111111111 (the "+" sign and any 11 digits) in the input field, then the color inscription should show the truth. For other string formats, there should be an inscription "Not Ok".
+Приложение отображает одно окно, в котором есть поле ввода (для ввода номера телефона) и цветная надпись. Метка может находиться в двух состояниях: зеленый текст "Ок" и красный "Не Ок".
+
+Если вы вводите номер мобильного телефона в формате +11111111111 (знак "+" и любые 11 цифр) в поле ввода, то цветная надпись должна показывать правду. Для других строковых форматов должна быть надпись "Not Ok".
+## Инструкция по подключению библиотек
+
+В проекте уже сгенирован файл конфигурации [CMakeLists.txt](CMakeLists.txt).
+
+## Инструкция по сборке
+
+Сборка проекта производится с помощью инструмента [CMake](https://cmake.org/). В терминале компьютера необходимо прописать следующие команды: 
+
+```
+cmake --build . --config Release --target main
+```
